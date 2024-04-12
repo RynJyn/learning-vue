@@ -5,6 +5,8 @@
   <h2>Name: {{ getName('Tester') }}</h2>
   <h2>Data : {{ getData() }}</h2>
   <button v-on:click="myClick()">Click Here</button>
+  <input type="text" v-model="count" />
+  <h3>{{ count }}</h3>
 </template>
 
 <script>
@@ -13,7 +15,8 @@ export default {
   data() {
     return {
       username: 'Tester',
-      email: 'test@tester.com'
+      email: 'test@tester.com',
+      count: 0
     }
   },
   methods: {
