@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import MyComponent from './components/MyComponent.vue'
+import InputTesting from './components/InputTesting.vue'
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import MyComponent from './components/MyComponent.vue'
   <RouterView />
 
   <MyComponent />
+  <InputTesting />
 </template>
 
 <style scoped>
