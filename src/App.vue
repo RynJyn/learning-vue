@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import MyComponent from './components/MyComponent.vue'
 import InputTesting from './components/InputTesting.vue'
+import ConditionalRendering from './components/ConditionalRendering.vue'
 </script>
 
 <template>
@@ -23,6 +24,7 @@ import InputTesting from './components/InputTesting.vue'
 
   <MyComponent />
   <InputTesting />
+  <ConditionalRendering />
 </template>
 
 <style scoped>
