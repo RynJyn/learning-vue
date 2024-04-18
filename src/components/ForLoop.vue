@@ -1,3 +1,7 @@
+<script setup>
+import ChildComponent from './child.vue'
+</script>
+
 <template>
   <h3>Loops</h3>
   <ul>
@@ -8,6 +12,7 @@
     <li>Email: {{ user.email }}</li>
     <li v-if="user.verified">Verified</li>
   </ul>
+  <ChildComponent name="Tony Stark" :email="childComponent.email" :users="users" />
 </template>
 
 <script>
@@ -27,8 +32,12 @@ export default {
           email: 'admin@admin.com',
           verified: true
         }
-      ]
+      ],
+      childComponent: {
+        email: 'tony@gmail.com'
+      }
     }
-  }
+  },
+  components: { ChildComponent }
 }
 </script>
