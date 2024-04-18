@@ -4,6 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import MyComponent from './components/MyComponent.vue'
 import InputTesting from './components/InputTesting.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
+import ForLoop from './components/ForLoop.vue'
 </script>
 
 <template>
@@ -25,6 +26,7 @@ import ConditionalRendering from './components/ConditionalRendering.vue'
   <MyComponent />
   <InputTesting />
   <ConditionalRendering />
+  <ForLoop />
 </template>
 
 <style scoped>
