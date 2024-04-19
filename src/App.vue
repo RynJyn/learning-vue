@@ -5,6 +5,7 @@ import MyComponent from './components/MyComponent.vue'
 import InputTesting from './components/InputTesting.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
 import ForLoop from './components/ForLoop.vue'
+import SignUpForm from './components/SignUpForm.vue'
 </script>
 
 <template>
@@ -27,6 +28,7 @@ import ForLoop from './components/ForLoop.vue'
   <InputTesting />
   <ConditionalRendering />
   <ForLoop />
+  <SignUpForm />
 </template>
 
 <style scoped>
