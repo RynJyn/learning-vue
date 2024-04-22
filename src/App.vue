@@ -6,6 +6,7 @@ import InputTesting from './components/InputTesting.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
 import ForLoop from './components/ForLoop.vue'
 import SignUpForm from './components/SignUpForm.vue'
+import WatcherComp from './components/Watcher.vue'
 </script>
 
 <template>
@@ -29,6 +30,7 @@ import SignUpForm from './components/SignUpForm.vue'
   <ConditionalRendering />
   <ForLoop />
   <SignUpForm />
+  <WatcherComp />
 </template>
 
 <style scoped>
