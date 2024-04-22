@@ -7,6 +7,7 @@ import ConditionalRendering from './components/ConditionalRendering.vue'
 import ForLoop from './components/ForLoop.vue'
 import SignUpForm from './components/SignUpForm.vue'
 import WatcherComp from './components/Watcher.vue'
+import DynComps from './components/DynamicComponents.vue'
 </script>
 
 <template>
@@ -31,6 +32,7 @@ import WatcherComp from './components/Watcher.vue'
   <ForLoop />
   <SignUpForm />
   <WatcherComp />
+  <DynComps />
 </template>
 
 <style scoped>
