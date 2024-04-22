@@ -1,13 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import MyComponent from './components/MyComponent.vue'
-import InputTesting from './components/InputTesting.vue'
-import ConditionalRendering from './components/ConditionalRendering.vue'
-import ForLoop from './components/ForLoop.vue'
-import SignUpForm from './components/SignUpForm.vue'
-import WatcherComp from './components/Watcher.vue'
-import DynComps from './components/DynamicComponents.vue'
 </script>
 
 <template>
@@ -20,6 +13,7 @@ import DynComps from './components/DynamicComponents.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/course">Course</RouterLink>
         <RouterLink to="/signup">Sign Up</RouterLink>
         <RouterLink to="/profile">Profile</RouterLink>
         <RouterLink to="/api/">API</RouterLink>
@@ -28,17 +22,6 @@ import DynComps from './components/DynamicComponents.vue'
   </header>
 
   <RouterView />
-
-  <MyComponent />
-  <InputTesting />
-  <ConditionalRendering />
-  <ForLoop />
-  <SignUpForm />
-  <DynComps />
-
-  <teleport to="#teleport">
-    <WatcherComp />
-  </teleport>
 </template>
 
 <style scoped>
