@@ -20,6 +20,7 @@ import DynComps from './components/DynamicComponents.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/signup">Sign Up</RouterLink>
       </nav>
     </div>
   </header>
