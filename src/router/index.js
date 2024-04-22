@@ -38,6 +38,11 @@ const router = createRouter({
       component: () => import('../views/APIView.vue')
     },
     {
+      path: '/project',
+      name: 'project',
+      component: () => import('../views/ProjectView.vue')
+    },
+    {
       path: '/:pathMatch(.*)*',
       name: 'error',
       component: () => import('../views/ErrorView.vue')
