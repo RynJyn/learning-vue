@@ -31,8 +31,11 @@ import DynComps from './components/DynamicComponents.vue'
   <ConditionalRendering />
   <ForLoop />
   <SignUpForm />
-  <WatcherComp />
   <DynComps />
+
+  <teleport to="#teleport">
+    <WatcherComp />
+  </teleport>
 </template>
 
 <style scoped>
