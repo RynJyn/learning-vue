@@ -19,7 +19,7 @@ export default {
         this.count = 0
       }
 
-      if (curr < 0 && curr < prev) {
+      if (curr < 0) {
         alert('You must have a minimum of 0')
         this.count = 0
       }
